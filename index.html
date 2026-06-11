@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuckyForecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🌤 LuckyForecast</h1>
+
+    <p class="tagline">
+        Get real-time weather information for any city in the world.
+    </p>
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="cityInput"
+            placeholder="Enter city name">
+
+        <button id="searchBtn">
+            Search
+        </button>
+
+    </div>
+
+    <!-- WEATHER CARD -->
+
+    <div class="weather-card">
+
+        <h2 id="cityName">
+            📍 Loading Location...
+        </h2>
+
+        <div class="temp" id="temperature">
+            --°C
+        </div>
+
+        <div id="weatherDescription">
+            🌤 Weather Condition
+        </div>
+
+        <div class="details">
+
+            <p id="humidity">💧 Humidity: --</p>
+
+            <p id="windSpeed">💨 Wind: --</p>
+
+            <p id="feelsLike">🌡 Feels Like: --</p>
+
+            <p id="sunrise">🌅 Sunrise: --</p>
+
+<p id="sunset">🌇 Sunset: --</p>
+
+        </div>
+
+    </div>
+
+    <!-- FORECAST CARD -->
+
+    <div class="forecast-card">
+
+        <h2>📅 Today's Forecast</h2>
+
+        <div id="forecastContainer">
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
