@@ -285,6 +285,8 @@ sunrise.innerHTML =
 sunset.innerHTML =
 `🌇 Sunset: ${sunsetTime}`;
 
+getForecast(data.name);
+
         }
 
     );
